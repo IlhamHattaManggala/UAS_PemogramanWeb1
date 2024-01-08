@@ -1,12 +1,12 @@
 <?php
-// $host = 'localhost';
-// $dbname = 'kantor_kelurahan';
-// $username = 'root';
-// $password = '';
 $host = 'localhost';
-$dbname = 'id21763311_kantor_kelurahan';
-$username = 'id21763311_root';
-$password = 'Root123.';
+$dbname = 'kantor_kelurahan';
+$username = 'root';
+$password = '';
+// $host = 'localhost';
+// $dbname = 'id21763311_kantor_kelurahan';
+// $username = 'id21763311_root';
+// $password = 'Root123.';
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
